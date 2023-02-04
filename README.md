@@ -1,4 +1,5 @@
 # learning-html
+this is my first time using github and learning to code
 just me learning html from freecodecamp that's it
 also there's just a minor css
 the video link from where im learning
