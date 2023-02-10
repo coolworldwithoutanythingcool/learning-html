@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html lang = "en-US">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="Author" content="Aryan Bora">
-      <meta name="description" content="This page contains all the
-       things I am learning how to create as I learn HTML">
-      <link rel="icon" href="/code/img/png-transparent-logo-html5-brand-design-text-logo-number.png" type="image/x-icon">
-      <link rel="stylesheet" href="/code/css/main.css" type="text/css">
-      <title> My first web page.</title>
-      <style>
-      </style>
-       </head>
-      <body>
-        <h1>My Goals For The Year.</h1>
-        <hr>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Author" content="Aryan Bora" />
+    <meta
+      name="description"
+      content="This page contains all the
+       things I am learning how to create as I learn HTML"
+    />
+    <link
+      rel="icon"
+      href="/code/img/png-transparent-logo-html5-brand-design-text-logo-number.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/code/css/main.css" type="text/css" />
+    <title>My first web page.</title>
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <h1>My Goals For The Year.</h1>
+      <nav aria-labelledby="primary-navigation">
+        <h2 id="primary-navigation">primary-navigation</h2>
         <ol>
           <li>
             <a href="#html">Learning HTML</a>
@@ -25,106 +33,168 @@
             <a href="#playlistandfavicon">some random info and my playlist.</a>
           </li>
         </ol>
-        <hr>
-        <section id="html">
-       <h2>I'm Ready to Learn HTML.</h2>
-       <p>This is my first web page.</p>
-       <figure>
-       <img src="/code/img/HTML5_logo_and_wordmark.svg.png" width="300" height="300" alt="HTML5 Logo" title="I'm Learning HTML5." loading="lazy">
-       <figcaption>
-        HTML5 Logo
-       </figcaption>
-      </figure>
-      <figure>
-        <figcaption>
-          <code>&lt;h1&gt;Hello World!&lt;/h1&gt;
-          </code>
-        </figcaption>
-      </figure>
-       <h3>My Daily Schedule.</h3>
-       <p>Let me tell you how:</p>
-       <ol>
-        <li>...I learn more about web dev.</li>
-        <li>...I plan out my schedule.</li>
-        <li>...I use resources from 
-          <abbr title="Freecodecamp.org">
-            <a href="https://www.youtube.com/@freecodecamp" target="_blank">Fcc.org</a></abbr>
-        </li>
-       </ol>
-      </section>
-       <hr>
-       <section id="vacation">
-       <h2>I'm also planning a vacation.</h2>
-       <p>I've been working hard and <em>really need a getaway.</em>
-      </p>
-       <p>I live in<abbr title="Bangalore">BLR</abbr>,<abbr title="Karnataka">KA</abbr>. I really want to visit
-         Munich, Germany</p>
-         <figure>
-          <img src="/code/img/twin-towers-Church-of-Our-Lady-Munich.webp" alt="Munich Church" height="800" width="1250" title="My dream destination" loading="lazy">
-          <figcaption>
-            Munich, Germany Getaway
-          </figcaption>
-        </figure>
-       <h3>Places I'd Like to Visit now</h3>
-       <ul>
-       <li>
-        <p>I've Heard Good Things about France too.</p>
-        <figure>
-          <img src="/code/img/France-1980x1406.webp" alt="Paris, France" height="800" width="1200" title="My 2nd dream destination" loading="lazy">
-          <figcaption>
-            Paris, France Getaway
-          </figcaption>
-        </figure>
-      </li>
-       <li>
-        <p>I've Heard Great Things about going here:</p>
-       <address>
-       Flat 101,BM Lotus Apartments, Dodoakanahalli, Sarjapura Rd, Karnataka
-        <br>
-        3rd to last house, Kundil Path, Dhanua Nagar, Tezpur, Assam
-        <br>
-        Last house (don't take turn after last house on straight road Hiraniya Sarma Path, Bamparbatia, Assam
-       </address>
-      </li>
-      </ul>
-       <!--TODO: Finish The Course Quick, And Start CSS Course.-->
-       <hr>
-       <h4>Places I Want To Avoid.</h4>
-      <dl>
-        <dt>Kuwait</dt>
-        <dd>I heard this is too <strong>hot</strong>!</dd>
-        <dt>Bukrina Faso</dt>
-        <dd>I heard this is also too <strong>hot</strong>!</dd>
-        <dt>North Pole</dt>
-        <dd>I heard this is too <strong>cold</strong>!</dd>
-        <dt>South Pole</dt>
-        <dd>I heard this is also too <strong>cold</strong>!</dd>
-      </dl>
-    </section>
-<!--just checking if my code can be edited from here and will it be read only on github-->
-         <hr>
-         <section id="playlistandfavicon">
-          <h3>Some random stuff.</h3>
-         &lt;&lt;&lt; &copy;<a href="https://open.spotify.com/playlist/4JIIa8R7fXrtJA3EsV2GTZ" target="blank">My Goated Spotify Playlist</a>&gt;&gt;&gt;
-         ;&gt;
-         <p>
-         </p>
-         <ul>
+      </nav>
+    </header>
+    <main>
+      <hr />
+      <article id="html">
+        <h2>I'm Ready to Learn HTML.</h2>
+        <p>This is my first web page.</p>
+        <section>
+          <figure>
+            <h3>HTML5</h3>
+            <img
+              src="/code/img/HTML5_logo_and_wordmark.svg.png"
+              width="300"
+              height="300"
+              alt="HTML5 Logo"
+              title="I'm Learning HTML5."
+              loading="lazy"
+            />
+            <figcaption>HTML5 Logo</figcaption>
+          </figure>
+          <figure>
+            <figcaption>
+              <code>&lt;h1&gt;Hello World!&lt;/h1&gt; </code>
+            </figcaption>
+          </figure>
+        </section>
+        <section>
+          <h3>My Daily Schedule.</h3>
+          <p>Let me tell you how:</p>
+          <ol>
+            <li>...I learn more about web dev.</li>
+            <li>...I plan out my schedule.</li>
+            <li>
+              ...I use resources from
+              <abbr title="Freecodecamp.org">
+                <a href="https://www.youtube.com/@freecodecamp" target="_blank"
+                  >Fcc.org</a
+                ></abbr
+              >
+            </li>
+          </ol>
+          <aside>
+            <details>
+              <summary><mark>Guess how long i code for?</mark></summary>
+              <p>
+                <time datetime="16:00">I code for </time
+                ><mark><time datetime="19:00"></time>3 hours.</mark>
+              </p>
+            </details>
+          </aside>
+        </section>
+      </article>
+      <hr />
+      <article id="vacation">
+        <section>
+          <h2>I'm also planning a vacation.</h2>
+          <p>I've been working hard and <em>really need a getaway.</em></p>
+          <p>
+            I live in<abbr title="Bangalore">BLR</abbr>,<abbr title="Karnataka"
+              >KA</abbr
+            >. I really want to visit Munich, Germany
+          </p>
+          <figure>
+            <img
+              src="/code/img/twin-towers-Church-of-Our-Lady-Munich.webp"
+              alt="Munich Church"
+              height="800"
+              width="1250"
+              title="My dream destination"
+              loading="lazy"
+            />
+            <figcaption>Munich, Germany Getaway</figcaption>
+          </figure>
+          <h3>Places I'd Like to Visit now</h3>
+          <ul>
+            <li>
+              <p>I've Heard Good Things about France too.</p>
+              <figure>
+                <img
+                  src="/code/img/France-1980x1406.webp"
+                  alt="Paris, France"
+                  height="800"
+                  width="1200"
+                  title="My 2nd dream destination"
+                  loading="lazy"
+                />
+                <figcaption>Paris, France Getaway</figcaption>
+              </figure>
+            </li>
+            <li>
+              <p>I've Heard Great Things about going here:</p>
+              <address>
+                Flat 101,BM Lotus Apartments, Dodoakanahalli, Sarjapura Rd,
+                Karnataka
+                <br />
+                3rd to last house, Kundil Path, Dhanua Nagar, Tezpur, Assam
+                <br />
+                Last house (don't take turn after last house on straight road
+                Hiraniya Sarma Path, Bamparbatia, Assam
+              </address>
+            </li>
+          </ul>
+        </section>
+        <!--TODO: Finish The Course Quick, And Start CSS Course.-->
+        <hr />
+        <section>
+          <h4>Places I Want To Avoid.</h4>
+          <dl>
+            <dt>Kuwait</dt>
+            <dd>I heard this is too <strong>hot</strong>!</dd>
+            <dt>Bukrina Faso</dt>
+            <dd>I heard this is also too <strong>hot</strong>!</dd>
+            <dt>North Pole</dt>
+            <dd>I heard this is too <strong>cold</strong>!</dd>
+            <dt>South Pole</dt>
+            <dd>I heard this is also too <strong>cold</strong>!</dd>
+          </dl>
+        </section>
+      </article>
+    </main>
+    <!--just checking if my code can be edited from here and will it be read only on github-->
+    <hr />
+    <footer>
+      <section id="playlistandfavicon">
+        <h3>Some random stuff.</h3>
+        &lt;&lt;&lt; &copy;<a
+          href="https://open.spotify.com/playlist/4JIIa8R7fXrtJA3EsV2GTZ"
+          target="blank"
+          >My Goated Spotify Playlist</a
+        >&gt;&gt;&gt; ;&gt;
+        <p></p>
+        <ul>
           <li>
-            Download An <a href="png-transparent-logo-html5-brand-design-text-logo-number.png" download>HTML5 favicon.</a>
+            Download An
+            <a
+              href="png-transparent-logo-html5-brand-design-text-logo-number.png"
+              download
+              >HTML5 favicon.</a
+            >
           </li>
           <li>
-            contact me at <a href="mailto:example@gmail.com">example email address</a>
+            contact me at
+            <a href="mailto:example@gmail.com">example email address</a>
           </li>
-          <li>
-            Dial <a href="tel:+9016973420">example phone number</a>
-          </li>
+          <li>Dial <a href="tel:+9016973420">example phone number</a></li>
           <li>
             <a href="https://www.google.co.in/" target="_blank">Google</a>
           </li>
-         </ul>
-         <a href="#">Back To The Top</a>
-        </section>
-        <!--NVM I CHANGED MY MIND. AFTER I FINISH THIS COURSE I'LL BUILD 10 PROJECTS CHATGPT RECOMENDED ABOUT HTML WITHOUT CSS.-->
-      </body>
+        </ul>
+        <a href="#">Back To The Top</a>
+      </section>
+    </footer>
+    <!--NVM I CHANGED MY MIND. AFTER I FINISH THIS COURSE I'LL BUILD 10 PROJECTS CHATGPT RECOMENDED ABOUT HTML WITHOUT CSS.-->
+    <!--1.HTML Resume: Create a simple resume using HTML tags, such as headings, lists, links, and tables.
+2.HTML Newsletter: Design a newsletter layout using HTML tables, headings, and text formatting tags.
+3.HTML Recipe Page: Develop a page to showcase a recipe with ingredients, instructions, and images.
+4.HTML Book Review: Write a review of your favorite book using HTML headings, lists, and links.
+5.HTML Product Page: Create a simple product page to showcase features and benefits of a product.
+6.HTML Landing Page: Develop a landing page with a header, footer, and a call to action button.
+7.HTML Contact Form: Build a contact form with input fields for name, email, and message.
+8.HTML FAQ Page: Design a FAQ page with a list of questions and answers using headings, lists, and text formatting tags.
+9.HTML Survey Form: Create a survey form with multiple choice questions and text fields for feedback.
+10.HTML Image Gallery: Develop an image gallery using HTML tables and image tags.-->
+  </body>
 </html>
