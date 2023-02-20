@@ -298,6 +298,180 @@
             <a href="https://www.google.co.in/" target="_blank">Google</a>
           </li>
         </ul>
+        <h2>I'd really like to hear from you!</h2>
+        <p>contact me</p>
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Personal Info</legend>
+            <p>
+              <label for="Firstname">First Name:</label>
+              <input
+                type="text"
+                name="FirstName"
+                id="FirstName"
+                placeholder="Enter First Name"
+                autocomplete="on"
+                required
+                autofocus
+              />
+            </p>
+            <p>
+              <label for="Lastname">Last Name:</label>
+              <input
+                type="text"
+                name="LastName"
+                id="LastName"
+                placeholder="Enter Last Name"
+                autocomplete="on"
+                required
+              />
+            </p>
+            <p>
+              <label for="Password">Password:</label>
+              <input
+                type="password"
+                name="Password"
+                id="Password"
+                placeholder="Enter Password"
+                required
+              />
+            </p>
+            <p>
+              <label for="Phone">Phone:</label>
+              <input
+                type="tel"
+                name="Phone"
+                id="Phone"
+                placeholder="Enter Phone"
+                pattern="[0-9]{10}"
+                required
+              />
+            </p>
+            <p>
+              <label for="Decade">Which Decade were you born in:</label>
+              <input
+                type="number"
+                name="Decade"
+                id="Decade"
+                min="1940"
+                max="2040"
+                step="10"
+                value=""
+              />
+            </p>
+            <p>
+              <label for="coffee">Favorite coffee:</label>
+              <select name="coffee" id="coffee">
+                <option value="cappuccino">Cappuccino</option>
+                <option value="espresso" selected>Espresso</option>
+                <option value="latte">Latte</option>
+                <option value="macchiato">Macchiato</option>
+                <option value="americano">Americano</option>
+                <option value="cortado">Cortado</option>
+                <option value="frappecino">Frappecino</option>
+                <option value="other">Other</option>
+              </select>
+            </p>
+            <fieldset>
+              <legend>What is your favorite food?</legend>
+              <p>
+                <input type="radio" name="food" id="shwarma" value="shwarma" />
+                <label for="shwarma">Shwarma</label>
+              </p>
+              <p>
+                <input type="radio" name="food" id="pizza" value="pizza" />
+                <label for="pizza">Pizza</label>
+              </p>
+              <p>
+                <input type="radio" name="food" id="ramen" value="ramen" />
+                <label for="ramen">Ramen</label>
+              </p>
+              <p>
+                <input
+                  type="radio"
+                  name="food"
+                  id="spaghetti"
+                  value="spaghetti"
+                />
+                <label for="spaghetti">Spaghetti</label>
+              </p>
+              <p>
+                <input type="radio" name="food" id="burger" value="burger" />
+                <label for="burger">Burger</label>
+              </p>
+              <p>
+                <input type="radio" name="food" id="taco" value="taco" />
+                <label for="taco">Taco</label>
+              </p>
+              <p>
+                <input
+                  type="radio"
+                  name="food"
+                  id="fried chicken"
+                  value="fried chicken"
+                />
+                <label for="fried chicken">Fried Chicken</label>
+              </p>
+            </fieldset>
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Do you have pets?</legend>
+            <p>
+              <input type="checkbox" name="pets" id="dog" value="dog" />
+              <label for="dog">Dog</label>
+            </p>
+            <p>
+              <input type="checkbox" name="pets" id="cat" value="cat" />
+              <label for="cat">Cat</label>
+            </p>
+            <p>
+              <input type="checkbox" name="pets" id="bird" value="bird" />
+              <label for="bird">Bird</label>
+            </p>
+            <p>
+              <input
+                type="checkbox"
+                name="pets"
+                id="goldfish"
+                value="goldfish"
+              />
+              <label for="goldfish">Goldfish</label>
+            </p>
+            <p>
+              <input type="checkbox" name="pets" id="hamster" value="hamster" />
+              <label for="hamster">Hamster</label>
+            </p>
+            <p>
+              <input type="checkbox" name="pets" id="none" value="none" />
+              <label for="none">None</label>
+            </p>
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Send me a Note</legend>
+            <label for="message">Your message:</label>
+            <br />
+            <textarea
+              name="message"
+              id="message"
+              cols="60"
+              rows="40"
+              placeholder="Type your message here"
+            ></textarea>
+          </fieldset>
+          <br />
+          <button type="submit">Submit</button>
+          <button
+            type="submit"
+            formaction="https://httpbin.org/post"
+            formmethod="post"
+          >
+            Post
+          </button>
+          <button type="reset">Reset</button>
+        </form>
+        <br />
         <a href="#">Back To The Top</a>
       </section>
     </footer>
